@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background-color: #000;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  background-color: #000;
+  border: 2px solid #00ff00;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px #00ff00;
+  width: 320px;
+  text-align: center;
+}
+
+.login-box h2 {
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  font-size: 14px;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  background-color: #00ff00;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.login-box button:hover {
+  background-color: #0c0;
+  box-shadow: 0 0 10px #00ff00;
+}
+
+.extra-links {
+  margin-top: 15px;
+}
+
+.extra-links a {
+  color: #00ff00;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.extra-links a:hover {
+  text-decoration: underline;
+}
+.extra-links p {
+  margin-top: 8px;
+  color: white;
+  font-size: 13px;
+}
